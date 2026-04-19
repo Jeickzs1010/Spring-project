@@ -49,6 +49,7 @@
             Controls.Add(button1);
             Name = "Staff";
             Text = "Staff";
+            Load += Staff_Load;
             ResumeLayout(false);
         }
 

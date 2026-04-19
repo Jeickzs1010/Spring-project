@@ -10,9 +10,11 @@ namespace Restaurant
 {
     public partial class Main_screen : Form
     {
+        public static Main_screen instance;
         public Main_screen()
         {
             InitializeComponent();
+            
         }
 
         private void Main_screen_Load(object sender, EventArgs e)
@@ -49,6 +51,12 @@ namespace Restaurant
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+          
         }
     }
 }

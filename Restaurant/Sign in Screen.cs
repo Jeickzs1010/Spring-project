@@ -41,7 +41,6 @@ namespace Restaurant
 
         private void button1_Click(object sender, EventArgs e)
         {
-          
             userS = textBox1;
             passS = textBox2;
             this.Hide();

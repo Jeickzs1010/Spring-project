@@ -21,5 +21,10 @@ namespace Restaurant
             Main_screen main_Screen = new Main_screen();
             main_Screen.Show();
         }
+
+        private void Staff_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
