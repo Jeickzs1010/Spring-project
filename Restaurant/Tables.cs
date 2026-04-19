@@ -21,5 +21,10 @@ namespace Restaurant
             Main_screen main_Screen = new Main_screen();
             main_Screen.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
