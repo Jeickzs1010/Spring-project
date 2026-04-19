@@ -46,5 +46,10 @@ namespace Restaurant
         {
 
         }
+
+        private void Orders_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

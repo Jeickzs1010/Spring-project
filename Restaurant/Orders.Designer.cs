@@ -30,15 +30,10 @@
         {
             button1 = new Button();
             tableLayoutPanel1 = new TableLayoutPanel();
-            label1 = new Label();
-            label2 = new Label();
             label3 = new Label();
-            label4 = new Label();
             label5 = new Label();
-            label6 = new Label();
-            label7 = new Label();
-            label8 = new Label();
-            label9 = new Label();
+            label4 = new Label();
+            label2 = new Label();
             label10 = new Label();
             label11 = new Label();
             label12 = new Label();
@@ -47,7 +42,6 @@
             label15 = new Label();
             label16 = new Label();
             label17 = new Label();
-            label18 = new Label();
             label19 = new Label();
             label20 = new Label();
             label21 = new Label();
@@ -55,6 +49,12 @@
             label23 = new Label();
             label24 = new Label();
             label25 = new Label();
+            label18 = new Label();
+            label8 = new Label();
+            label7 = new Label();
+            label6 = new Label();
+            label9 = new Label();
+            label1 = new Label();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -112,25 +112,6 @@
             tableLayoutPanel1.Size = new Size(677, 347);
             tableLayoutPanel1.TabIndex = 1;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(3, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(34, 15);
-            label1.TabIndex = 0;
-            label1.Text = "Main";
-            label1.Click += label1_Click;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(138, 0);
-            label2.Name = "label2";
-            label2.Size = new Size(29, 15);
-            label2.TabIndex = 1;
-            label2.Text = "Side";
-            // 
             // label3
             // 
             label3.AutoSize = true;
@@ -140,6 +121,15 @@
             label3.TabIndex = 2;
             label3.Text = "Drinks";
             label3.Click += label3_Click;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(543, 0);
+            label5.Name = "label5";
+            label5.Size = new Size(43, 15);
+            label5.TabIndex = 4;
+            label5.Text = "Shakes";
             // 
             // label4
             // 
@@ -151,49 +141,14 @@
             label4.Text = "Dessert";
             label4.Click += label4_Click;
             // 
-            // label5
+            // label2
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(543, 0);
-            label5.Name = "label5";
-            label5.Size = new Size(43, 15);
-            label5.TabIndex = 4;
-            label5.Text = "Shakes";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(3, 276);
-            label6.Name = "label6";
-            label6.Size = new Size(0, 15);
-            label6.TabIndex = 2;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(3, 138);
-            label7.Name = "label7";
-            label7.Size = new Size(33, 15);
-            label7.TabIndex = 3;
-            label7.Text = "Pizza";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Location = new Point(3, 69);
-            label8.Name = "label8";
-            label8.Size = new Size(68, 15);
-            label8.TabIndex = 4;
-            label8.Text = "Hamburger";
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Location = new Point(3, 207);
-            label9.Name = "label9";
-            label9.Size = new Size(35, 15);
-            label9.TabIndex = 5;
-            label9.Text = "Steak";
+            label2.AutoSize = true;
+            label2.Location = new Point(138, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(29, 15);
+            label2.TabIndex = 1;
+            label2.Text = "Side";
             // 
             // label10
             // 
@@ -267,16 +222,6 @@
             label17.TabIndex = 13;
             label17.Text = "Water";
             // 
-            // label18
-            // 
-            label18.AutoSize = true;
-            label18.Location = new Point(408, 69);
-            label18.Name = "label18";
-            label18.Size = new Size(57, 15);
-            label18.TabIndex = 14;
-            label18.Text = "Apple pie";
-            label18.Click += label18_Click;
-            // 
             // label19
             // 
             label19.AutoSize = true;
@@ -340,6 +285,61 @@
             label25.TabIndex = 21;
             label25.Text = "Chocolate";
             // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Location = new Point(408, 69);
+            label18.Name = "label18";
+            label18.Size = new Size(57, 15);
+            label18.TabIndex = 14;
+            label18.Text = "Apple pie";
+            label18.Click += label18_Click;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(3, 69);
+            label8.Name = "label8";
+            label8.Size = new Size(68, 15);
+            label8.TabIndex = 4;
+            label8.Text = "Hamburger";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(3, 138);
+            label7.Name = "label7";
+            label7.Size = new Size(33, 15);
+            label7.TabIndex = 3;
+            label7.Text = "Pizza";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(3, 276);
+            label6.Name = "label6";
+            label6.Size = new Size(0, 15);
+            label6.TabIndex = 2;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(3, 207);
+            label9.Name = "label9";
+            label9.Size = new Size(35, 15);
+            label9.TabIndex = 5;
+            label9.Text = "Steak";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(3, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(34, 15);
+            label1.TabIndex = 0;
+            label1.Text = "Main";
+            label1.Click += label1_Click;
+            // 
             // Orders
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -349,6 +349,7 @@
             Controls.Add(button1);
             Name = "Orders";
             Text = "Orders";
+            Load += Orders_Load;
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
             ResumeLayout(false);
