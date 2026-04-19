@@ -45,5 +45,10 @@ namespace Restaurant
             Staff staff = new Staff();
             staff.Show();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

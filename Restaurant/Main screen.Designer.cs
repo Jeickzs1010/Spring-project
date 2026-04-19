@@ -32,13 +32,14 @@
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
+            label2 = new Label();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe Print", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(192, 259);
+            label1.Location = new Point(188, 172);
             label1.Name = "label1";
             label1.Size = new Size(496, 105);
             label1.TabIndex = 0;
@@ -78,11 +79,23 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe Print", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(258, 264);
+            label2.Name = "label2";
+            label2.Size = new Size(379, 105);
+            label2.TabIndex = 4;
+            label2.Text = "Restaurant";
+            label2.Click += label2_Click;
+            // 
             // Main_screen
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(914, 600);
+            Controls.Add(label2);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -101,5 +114,6 @@
         private Button button1;
         private Button button2;
         private Button button3;
+        private Label label2;
     }
 }
