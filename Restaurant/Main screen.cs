@@ -19,5 +19,31 @@ namespace Restaurant
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Tables tables = new Tables();
+            tables.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Orders orders = new Orders();
+            orders.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Staff staff = new Staff();
+            staff.Show();
+        }
     }
 }
