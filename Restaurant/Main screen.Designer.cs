@@ -38,18 +38,19 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe Print", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(202, 209);
+            label1.Location = new Point(192, 259);
             label1.Name = "label1";
-            label1.Size = new Size(396, 84);
+            label1.Size = new Size(496, 105);
             label1.TabIndex = 0;
             label1.Text = "Welcome to J's";
             label1.Click += label1_Click;
             // 
             // button1
             // 
-            button1.Location = new Point(21, 12);
+            button1.Location = new Point(24, 16);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(86, 31);
             button1.TabIndex = 1;
             button1.Text = "Tables";
             button1.UseVisualStyleBackColor = true;
@@ -57,9 +58,10 @@
             // 
             // button2
             // 
-            button2.Location = new Point(121, 12);
+            button2.Location = new Point(138, 16);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
+            button2.Size = new Size(86, 31);
             button2.TabIndex = 2;
             button2.Text = "Orders";
             button2.UseVisualStyleBackColor = true;
@@ -67,9 +69,10 @@
             // 
             // button3
             // 
-            button3.Location = new Point(226, 12);
+            button3.Location = new Point(258, 16);
+            button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
-            button3.Size = new Size(75, 23);
+            button3.Size = new Size(86, 31);
             button3.TabIndex = 3;
             button3.Text = "Staff";
             button3.UseVisualStyleBackColor = true;
@@ -77,13 +80,14 @@
             // 
             // Main_screen
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Main_screen";
             Text = "Main_screen";
             Load += Main_screen_Load;
